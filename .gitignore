@@ -1,6 +1,7 @@
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
+schedulr/.mvn/wrapper/maven-wrapper.jar
+schedulr/src/main/resources/application.properties
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -20,11 +21,11 @@ target/
 *.ipr
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+schedulr/nbproject/private/
+schedulr/nbbuild/
+schedulr/dist/
+schedulr/nbdist/
+schedulr/.nb-gradle/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
