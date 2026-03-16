@@ -27,7 +27,7 @@ import lombok.Setter;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name="email")
@@ -38,9 +38,4 @@ public class User {
 
     @Column(name="first_name")
     private String firstName;
-
-    /*
-        If you accidentally add column, to remove it, run the following SQL script:
-        ALTER TABLE `ems`.`employees` DROP COLUMN `column_name`;
-    */
 }

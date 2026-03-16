@@ -15,7 +15,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.programmingnoob.schedulr.entity.User;
 
-
 public interface UserRepository extends JpaRepository<User, Long>{
 
 }
