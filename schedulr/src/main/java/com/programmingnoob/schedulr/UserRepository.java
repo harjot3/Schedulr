@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SchedulrApplication {
+public class UserRepository {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SchedulrApplication.class, args);
+		SpringApplication.run(UserRepository.class, args);
 	}
 
 }

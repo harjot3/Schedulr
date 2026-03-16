@@ -1,9 +1,9 @@
-HELP.md
-target/
+schedulr/HELP.md
+schedulr/target/
 schedulr/.mvn/wrapper/maven-wrapper.jar
-schedulr/src/main/resources/application.properties
 !**/src/main/**/target/
 !**/src/test/**/target/
+schedulr/src/main/resources/application.properties
 
 ### STS ###
 .apt_generated
@@ -21,12 +21,12 @@ schedulr/src/main/resources/application.properties
 *.ipr
 
 ### NetBeans ###
-schedulr/nbproject/private/
-schedulr/nbbuild/
-schedulr/dist/
-schedulr/nbdist/
-schedulr/.nb-gradle/
-build/
+schedulr//nbproject/private/
+schedulr//nbbuild/
+schedulr//dist/
+schedulr//nbdist/
+schedulr//.nb-gradle/
+schedulr/build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
